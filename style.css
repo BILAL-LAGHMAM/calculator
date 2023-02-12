@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #3a4764;
+    height: 100vh;
+    display: flex;
+}
+section{
+    width: max-content;
+    display: grid;
+    gap: 20px;
+    margin: auto;
+    align-self: center;
+}
+section div:nth-child(1) h2{
+    color: white;
+    font-size: 35px;
+}
+section div:nth-child(2){
+    background-color: #182034;
+    width: 400px;
+    height: 85px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 25px;
+}
+
+section div:nth-child(2) p{
+    font-size: 40px;
+    color: white;
+}
+
+section div:nth-child(3){
+    background-color: #232c43;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 500px;
+}
+
+section div:nth-child(3) button{
+    border-radius: 10px;
+    width: 80px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-bottom: 3px solid #b4a597;
+}
+section div:nth-child(3) .egal, section div:nth-child(3) .reset{
+    width: 170px;
+}
+section div:nth-child(3) .egal{
+    background-color: #d03f2f;
+}
+section div:nth-child(3) p{
+    font-size: 20px;
+    font-weight: 900;
+    color: #444b5a;
+}
+section div:nth-child(3) .dell ,section div:nth-child(3) .reset{
+    background-color: #637097;
+    border: none;
+}
+section div:nth-child(3) .dell p ,section div:nth-child(3) .reset p,section div:nth-child(3) .egal p{
+    color: white;
+    border: none;
+}
